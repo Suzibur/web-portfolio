@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .half-width{
     width: 40%;
@@ -18,13 +18,15 @@ body{
 }
 .half-width h1{
     font-size: 40px;
+    color: dimgrey;
 }
 .half-width h3{
-    font-size: 30px;
+    font-size: 26px;
     color: dimgrey;
 }
 .half-width p{
     font-size: 20px;
+    color:dimgray
 }
 .half-width a{
     border: none;
@@ -39,7 +41,7 @@ body{
 .half-width a:hover{
     background: tomato;
 }
-.my-area .name-highlight{
+.name-highlight{
     color: darkorange;
 }
 .half-width img{
@@ -52,6 +54,43 @@ body{
     background-repeat: no-repeat;
     background-position: right;
 }
-.box2{
+.dreamBox{
     margin: 80px 0 0 100px;
+}
+.experience .half-width {
+    height: 320px;
+    margin-left: 5%;
+    padding: 20px;
+    box-shadow: 4px solid gray;
+}
+.exHeading{
+    margin-bottom: 70px;
+    text-align: center;
+    font-size:40px;
+    color: darkorange;
+}
+.experience{
+    height:550px;
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+}
+.experience h3{
+    color:darkorange;
+}
+.experience .box{
+    box-shadow: 10px 10px 40px gray;
+}
+#box1{
+    border-left: 5px solid darkorange;
+    border-image: linear-gradient(to top, darkorange, tomato);
+    border-image-slice: 1;
+}
+#box2{
+    border-left: 5px solid;
+    border-image: linear-gradient(to top, cyan, blue);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
