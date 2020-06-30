@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+.half-width{
+    width: 40%;
+    float: left;
+
+}
+.my-area{
+    height: 500px;
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
+}
+.my-area .half-width{
+    margin-left: 5%;
+    padding-left: 3%;
+}
+.half-width h1{
+    font-size: 40px;
+}
+.half-width h3{
+    font-size: 30px;
+    color: dimgrey;
+}
+.half-width p{
+    font-size: 20px;
+}
+.half-width a{
+    border: none;
+    color:white;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.half-width a:hover{
+    background: tomato;
+}
+.my-area .name-highlight{
+    color: darkorange;
+}
+.half-width img{
+    width: 100%;
+}
+
+.dreamArea{
+    height: 600px;
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box2{
+    margin: 80px 0 0 100px;
+}
